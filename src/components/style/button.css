@@ -1,0 +1,47 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 17px;
+    margin-bottom: 33px;
+}
+
+.button {
+    height: 34px;
+    width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+.button.white > i {
+    color: #1e1f26;
+    height: 13px;
+    width: 13px;
+}
+
+.button.blue > i {
+    color: #fff;
+    height: 13px;
+    width: 13px;
+}
+
+.button.white {
+    background: #fff;
+    color: #374151;
+}
+
+.button.blue {
+    background: #5093e2;
+    color: #fff;
+}

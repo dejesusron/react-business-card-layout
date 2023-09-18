@@ -1,0 +1,24 @@
+.footer {
+    height: 64px;
+    width: 100%;
+    background: #161619;
+    display: grid;
+    place-items: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.icon-container {
+    display: flex;
+    column-gap: 24px;
+}
+
+.icon-container > i {
+    font-size: 25px;
+    color: #918e9b;
+    transition: 0.3s;
+}
+
+.icon-container > i:hover {
+    color: #fff;
+    transform: scale(1.5);
+}

@@ -1,0 +1,18 @@
+.App {
+  position: relative;
+  width: 1296px;
+  height: 1884px;
+  background: #1c1c1c;
+}
+
+.container {
+  width: 550px;
+  height: 868px;
+  background: #23252c;
+  display: grid;
+  place-items: center;
+}
+
+.main {
+  padding: 0 35px 25px;
+}
